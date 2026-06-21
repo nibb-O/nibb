@@ -12,7 +12,7 @@
         
         <div class="flex justify-center mb-4">
             <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80" 
+                src="download.jpg" 
                 alt="Avatar" 
                 class="w-32 h-32 rounded-full object-cover shadow-lg ring-4 ring-white"
             >
