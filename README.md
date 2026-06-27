@@ -4,20 +4,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nib</title>
     
-    <!-- 这里是新增的 Tab Icon (Favicon) 代码 -->
-    <!-- 替换 href 后面的网址为你自己的图标链接，或者本地图片路径（如 icon.png） -->
     <link rel="icon" type="image/jpeg" href="download.jpg">
 
-    <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* 定义动画 */
+        @keyframes float {
+            0% {
+                transform: translateY(0px); /* 初始位置 */
+            }
+            50% {
+                transform: translateY(-5px); /* 向上浮动 5px */
+            }
+            100% {
+                transform: translateY(0px); /* 回到初始位置 */
+            }
+        }
+
+        /* 将动画应用到中间的卡片 */
+        .float-card {
+            animation: float 2s ease-in-out infinite; /* 动画名称：float，持续时间：2秒，动画曲线：ease-in-out，重复次数：无限 */
+        }
+    </style>
 </head>
-<!-- 背景色：从左上到右下的粉色系渐变 -->
 <body class="bg-gradient-to-br from-pink-100 via-rose-200 to-pink-300 min-h-screen flex items-center justify-center p-4">
 
-    <!-- 主卡片容器：半透明磨砂玻璃效果 -->
-    <div class="bg-white/40 backdrop-blur-md rounded-3xl p-8 max-w-sm w-full text-center shadow-xl border border-white/50">
+    <div class="bg-white/40 backdrop-blur-md rounded-3xl p-8 max-w-sm w-full text-center shadow-xl border border-white/50 float-card">
         
-        <!-- 头像区域 -->
         <div class="flex justify-center mb-4">
             <img 
                 src="download.jpg" 
@@ -26,11 +40,8 @@
             >
         </div>
 
-        <!-- 名字 -->
         <h1 class="text-2xl font-bold text-gray-800 tracking-wide mb-1">Nib</h1>
         
-        <!-- 简介 -->
-        <!-- 简介：合并成一个段落，用 space-y-1 控制上下行距，紧凑又好看 -->
         <div class="text-sm text-gray-600 mb-6 space-y-1">
             <p>✨ I Like Playing Games ✨</p>
             <p>😘 Developing Games 😘</p>
