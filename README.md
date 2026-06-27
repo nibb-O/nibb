@@ -36,7 +36,7 @@
             <p>😘 Developing Games 😘</p>
         </div>
 
-        <p class="text-xs text-pink-700/60 mt-4 italic">Tab 图标已经配置好啦！</p>
+        <p class="text-xs text-pink-700/60 mt-4 italic"><3</p>
 
     </div>
 
