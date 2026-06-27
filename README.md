@@ -31,7 +31,7 @@
         
         <!-- 简介 -->
         <p class="text-sm text-gray-600 mb-6">✨ I Like Playing Games ✨</p>
-        p class="text-sm text-gray-600 mb-6">😘 Developing Games 😘</p>
+        <p class="text-sm text-gray-600 mb-6">😘 Developing Games 😘</p>
 
         <p class="text-xs text-pink-700/60 mt-4 italic">Tab 图标已经配置好啦！</p>
 
