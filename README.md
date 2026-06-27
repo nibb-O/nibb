@@ -30,8 +30,11 @@
         <h1 class="text-2xl font-bold text-gray-800 tracking-wide mb-1">Nib</h1>
         
         <!-- 简介 -->
-        <p class="text-sm text-gray-600 mb-6">✨ I Like Playing Games ✨</p>
-        <p class="text-sm text-gray-600 mb-6">😘 Developing Games 😘</p>
+        <!-- 简介：合并成一个段落，用 space-y-1 控制上下行距，紧凑又好看 -->
+        <div class="text-sm text-gray-600 mb-6 space-y-1">
+            <p>✨ I Like Playing Games ✨</p>
+            <p>😘 Developing Games 😘</p>
+        </div>
 
         <p class="text-xs text-pink-700/60 mt-4 italic">Tab 图标已经配置好啦！</p>
 
