@@ -28,7 +28,7 @@
         </div>
 
         <!-- 名字 -->
-        <h1 class="text-2xl font-bold text-gray-800 tracking-wide mb-1">Your Name</h1>
+        <h1 class="text-2xl font-bold text-gray-800 tracking-wide mb-1">Nib</h1>
         
         <!-- 简介 -->
         <p class="text-sm text-gray-600 mb-6">✨ 一句话介绍你自己 ✨</p>
