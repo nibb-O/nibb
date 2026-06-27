@@ -30,7 +30,8 @@
         <h1 class="text-2xl font-bold text-gray-800 tracking-wide mb-1">Nib</h1>
         
         <!-- 简介 -->
-        <p class="text-sm text-gray-600 mb-6">✨ 一句话介绍你自己 ✨</p>
+        <p class="text-sm text-gray-600 mb-6">✨ I Like Playing Games ✨</p>
+        p class="text-sm text-gray-600 mb-6">😘 Developing Games 😘</p>
 
         <p class="text-xs text-pink-700/60 mt-4 italic">Tab 图标已经配置好啦！</p>
 
