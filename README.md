@@ -6,7 +6,7 @@
     
     <!-- 这里是新增的 Tab Icon (Favicon) 代码 -->
     <!-- 替换 href 后面的网址为你自己的图标链接，或者本地图片路径（如 icon.png） -->
-    <link rel="icon" type="image/jpg" href="download.jpg">
+    <link rel="icon" type="image/jpeg" href="download.jpg">
 
     <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
